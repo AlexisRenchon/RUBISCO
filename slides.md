@@ -153,6 +153,7 @@ scale: 0.4
 # ClimaLSM.jl design #4: modularity
 
 - Julia multiple dispatch allow to easily swap between submodels
+- Assemble ClimaLSM.jl puzzle piece by piece
 - E.g., soil biogeochemistry:
 	- Dual Arrhenius Michaelis Menten
 	- CENTURY

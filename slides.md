@@ -109,7 +109,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 ---
 layout: iframe-right
 url: https://clima.github.io/ClimaLSM.jl/previews/PR214/dynamicdocs/pages/soil_biogeochemistry/microbial_respiration/
-scale: 0.6 
+scale: 0.4 
 ---
 
 # ClimaLSM.jl design #2: clear documentation 
@@ -125,8 +125,40 @@ scale: 0.6
 
 ---
 
-# ClimaLSM.jl design #3
+# ClimaLSM.jl design #3: modularity
 
+- Julia multiple dispatch allow to easily swap between submodels
+- E.g., soil biogeochemistry:
+	- Dual Arrhenius Michaelis Menten
+	- CENTURY
+	- Heterogeneous kinetics
+
+---
+
+# ClimaLSM.jl design #4: accessibility
+
+- Web app to run single site, producing visualisation & output file
+
+<div grid="~ cols-2 gap-2" m="-t-2">
+
+<img src="images/ClimaLSMwebapp.png">
+
+</div>
+
+---
+layout: iframe-right
+url: https://cupoftea.earth/menu2/
+scale: 0.4 
+---
+
+# ClimaLSM.jl design #5: ModEx: emergent pattern at scales
+
+- E.g., at ecosystem scale, ecosystem respiration optimal moisture
+- Do LSM capture this? (where, when, PFT, ...)
+- Multiple other example: Topt of ER, GPP, Gs vs. SWC, VPD, ...
+- Stay up-to-date with data and model dev, versioning
+
+---
 
 
 

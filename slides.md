@@ -89,6 +89,7 @@ I will present CliMA land surface model and go in more details for our SOC imple
 - **CliMA/ClimaLSM.jl**
 	- Coupled to atmosphere
 	- Early development
+	- Soil water: Richardson, soil energy, radiative transfer: two-stream, photosynthesis: Farquhar, stomatal conductance: Medlyn, plant hydraulics: Van Genuchten, soil co2: dual Arrhenius Michaelis-Menten
 
 ---
 

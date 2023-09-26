@@ -151,7 +151,21 @@ scale: 0.4
 
 ---
 
-# ClimaLSM.jl design #4: modularity
+# ClimaLSM.jl design #4: accessibility
+
+- Web app to run single site, producing visualisation & output file
+- Example below: prototype with ozark data, and g1 parameter
+- Future widgets: domain, timestepper, parameters, site (e.g., FLUXNET)
+
+<div grid="~ cols-2 gap-2" m="-t-2">
+
+<img src="images/ClimaLSMwebapp.png">
+
+</div>
+
+---
+
+# ClimaLSM.jl design #5: modularity
 
 - Julia multiple dispatch allow to easily swap between submodels
 - Assemble ClimaLSM.jl puzzle piece by piece
@@ -159,20 +173,6 @@ scale: 0.4
 	- Dual Arrhenius Michaelis Menten
 	- CENTURY
 	- Heterogeneous kinetics
-
----
-
-# ClimaLSM.jl design #5: accessibility
-
-- Web app to run single site, producing visualisation & output file
-- Example below: prototype with ozark data, and g1 parameter
-- Future widgets: domain, timestepper, parameters
-
-<div grid="~ cols-2 gap-2" m="-t-2">
-
-<img src="images/ClimaLSMwebapp.png">
-
-</div>
 
 ---
 layout: iframe-right

@@ -107,6 +107,25 @@ The last comment block of each slide will be treated as slide notes. It will be 
 </div>
 
 ---
+layout: iframe-right
+url: https://clima.github.io/ClimaLSM.jl/previews/PR214/dynamicdocs/pages/soil_biogeochemistry/microbial_respiration/
+scale: 0.6 
+---
+
+# ClimaLSM.jl design #2: clear documentation 
+
+- 100s of web apps to facilitate communication 
+- Equations for parameterisation and prognostic variables
+- Table of variable with name, symbol, units and typical range
+<br>
+<br>
+- Delta SOC = input (litterfall, root exudates) - output (heterotrophic respiration, export)
+- Prognostic: Water, SOC, CO2, O2
+- Discretised soil layers but only one SOM pool 
+
+---
+
+# ClimaLSM.jl design #3
 
 
 

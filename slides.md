@@ -17,7 +17,7 @@ title: Welcome to Slidev
 
 # An introduction to ClimaLSM.jl
 
-Alexandre A. Renchon, Katherine Deck, Renato Braghiere, Julia Sloan, Edward Speer
+Alexandre A. Renchon, Katherine Deck, Renato Braghiere, Julia Sloan, Edward Speer & others
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -38,6 +38,21 @@ Alexandre A. Renchon, Katherine Deck, Renato Braghiere, Julia Sloan, Edward Spee
 <!--
 I will present CliMA land surface model and go in more details for our SOC implementation
 -->
+
+---
+
+# Table of content
+
+- Background #1: CliMA ESM
+- Background #2: CliMA LSM
+- Background #3: An ESM 100% written in Julia
+- ClimaLSM.jl design #1: standalone and integrated  
+- ClimaLSM.jl design #2: documentation 
+- ClimaLSM.jl design #3: tutorials
+- ClimaLSM.jl design #4: modularity
+- ClimaLSM.jl design #5: accessibility
+- ClimaLSM.jl design #6: ModEx: emergent pattern at scales
+- ClimaLSM.jl next steps
 
 ---
 
@@ -111,7 +126,7 @@ url: https://clima.github.io/ClimaLSM.jl/previews/PR214/dynamicdocs/pages/soil_b
 scale: 0.4 
 ---
 
-# ClimaLSM.jl design #2: clear documentation 
+# ClimaLSM.jl design #2: documentation 
 
 - 100s of web apps to facilitate communication 
 - Equations for parameterisation and prognostic variables
@@ -123,8 +138,19 @@ scale: 0.4
 - Discretised soil layers but only one SOM pool 
 
 ---
+layout: iframe-right
+url: https://clima.github.io/ClimaLSM.jl/dev/generated/Canopy/canopy_tutorial/
+scale: 0.4 
+---
 
-# ClimaLSM.jl design #3: modularity
+# ClimaLSM.jl design #3: tutorials
+
+- Step by step commented code to run part of ClimaLSM.jl
+- Notebooks will be available too
+
+---
+
+# ClimaLSM.jl design #4: modularity
 
 - Julia multiple dispatch allow to easily swap between submodels
 - E.g., soil biogeochemistry:
@@ -134,7 +160,7 @@ scale: 0.4
 
 ---
 
-# ClimaLSM.jl design #4: accessibility
+# ClimaLSM.jl design #5: accessibility
 
 - Web app to run single site, producing visualisation & output file
 - Example below: prototype with ozark data, and g1 parameter
@@ -152,7 +178,7 @@ url: https://cupoftea.earth/menu2/
 scale: 0.4 
 ---
 
-# ClimaLSM.jl design #5: ModEx: emergent pattern at scales
+# ClimaLSM.jl design #6: ModEx: emergent pattern at scales
 
 - E.g., at ecosystem scale, ecosystem respiration optimal moisture
 - Do LSM capture this? (where, when, PFT, ...)
@@ -169,4 +195,4 @@ scale: 0.4
 - Couple ClimaLSM.jl to the atmosphere
 <br>
 <br>
-- Manuscript ClimaLSM.jl vs FLUXNET, structure, design, modularity, parameterisation, docs, tutorials, web apps, emergent pattern
+- Manuscript ClimaLSM.jl vs FLUXNET, structure, design, modularity, parameterisation, docs, tutorials, web apps, emergent patterns

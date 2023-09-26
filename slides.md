@@ -163,7 +163,10 @@ scale: 0.4
 
 # ClimaLSM.jl next steps
 
-- 
-
-
-
+- Test our parameterisation scheme
+	- can we perform better than other LSM at Flux sites, despite simpler model?
+- Global run (currently, only single site)
+- Couple ClimaLSM.jl to the atmosphere
+<br>
+<br>
+- Manuscript ClimaLSM.jl vs FLUXNET, structure, design, modularity, parameterisation, docs, tutorials, web apps, emergent pattern

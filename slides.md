@@ -12,7 +12,7 @@ info: |
 drawings:
   persist: false
 transition: slide-left
-title: Welcome to Slidev
+title: An introduction to ClimaLSM.jl
 ---
 
 # An introduction to ClimaLSM.jl
@@ -189,10 +189,15 @@ scale: 0.4
 
 # ClimaLSM.jl next steps
 
-- Test our parameterisation scheme
-	- can we perform better than other LSM at Flux sites, despite simpler model?
-- Global run (currently, only single site)
-- Couple ClimaLSM.jl to the atmosphere
+- Short term:
+	- Test our parameterisation scheme
+		- can we perform better than other LSM at Flux sites, despite simpler model?
+	- Global run (currently, only single site)
+	- Couple ClimaLSM.jl to the atmosphere
+	- Manuscripts, e.g., ClimaLSM.jl vs FLUXNET, structure, design, modularity, parameterisation, docs, tutorials, web apps, emergent patterns
 <br>
 <br>
-- Manuscript ClimaLSM.jl vs FLUXNET, structure, design, modularity, parameterisation, docs, tutorials, web apps, emergent patterns
+- Long term:
+	- Dynamic carbon pools (currently prescribed)
+	- Add modules (e.g., optimality, hybrid modeling, complex canopy, ...)
+	- Add processes (e.g., soil nutrients, methane and N2O, ...)
